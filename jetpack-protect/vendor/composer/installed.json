@@ -1028,17 +1028,17 @@
         },
         {
             "name": "automattic/jetpack-my-jetpack",
-            "version": "v4.35.14",
-            "version_normalized": "4.35.14.0",
+            "version": "v4.35.15",
+            "version_normalized": "4.35.15.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Automattic/jetpack-my-jetpack.git",
-                "reference": "b3122de6af4c15c2065420d0e783742cc6acaef1"
+                "reference": "d81e2ac7dbf5c5e3c459d14b30fd55db864af068"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Automattic/jetpack-my-jetpack/zipball/b3122de6af4c15c2065420d0e783742cc6acaef1",
-                "reference": "b3122de6af4c15c2065420d0e783742cc6acaef1",
+                "url": "https://api.github.com/repos/Automattic/jetpack-my-jetpack/zipball/d81e2ac7dbf5c5e3c459d14b30fd55db864af068",
+                "reference": "d81e2ac7dbf5c5e3c459d14b30fd55db864af068",
                 "shasum": ""
             },
             "require": {
@@ -1066,7 +1066,7 @@
             "suggest": {
                 "automattic/jetpack-autoloader": "Allow for better interoperability with other plugins that use this package."
             },
-            "time": "2024-10-15T22:11:52+00:00",
+            "time": "2024-10-17T18:29:37+00:00",
             "type": "jetpack-library",
             "extra": {
                 "autotagger": true,
@@ -1101,7 +1101,7 @@
             ],
             "description": "WP Admin page with information and configuration shared among all Jetpack stand-alone plugins",
             "support": {
-                "source": "https://github.com/Automattic/jetpack-my-jetpack/tree/v4.35.14"
+                "source": "https://github.com/Automattic/jetpack-my-jetpack/tree/v4.35.15"
             },
             "install-path": "../../jetpack_vendor/automattic/jetpack-my-jetpack"
         },
@@ -1703,17 +1703,17 @@
         },
         {
             "name": "automattic/jetpack-waf",
-            "version": "v0.22.0",
-            "version_normalized": "0.22.0.0",
+            "version": "v0.22.1",
+            "version_normalized": "0.22.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Automattic/jetpack-waf.git",
-                "reference": "fbf3b53ac1fe5511fd490c27b5af5fbc374d6090"
+                "reference": "b06c6b9484587ade723b1f70f392140214632af8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Automattic/jetpack-waf/zipball/fbf3b53ac1fe5511fd490c27b5af5fbc374d6090",
-                "reference": "fbf3b53ac1fe5511fd490c27b5af5fbc374d6090",
+                "url": "https://api.github.com/repos/Automattic/jetpack-waf/zipball/b06c6b9484587ade723b1f70f392140214632af8",
+                "reference": "b06c6b9484587ade723b1f70f392140214632af8",
                 "shasum": ""
             },
             "require": {
@@ -1732,7 +1732,7 @@
             "suggest": {
                 "automattic/jetpack-autoloader": "Allow for better interoperability with other plugins that use this package."
             },
-            "time": "2024-10-14T09:30:42+00:00",
+            "time": "2024-10-17T18:29:27+00:00",
             "type": "jetpack-library",
             "extra": {
                 "autotagger": true,
@@ -1760,7 +1760,7 @@
             ],
             "description": "Tools to assist with the Jetpack Web Application Firewall",
             "support": {
-                "source": "https://github.com/Automattic/jetpack-waf/tree/v0.22.0"
+                "source": "https://github.com/Automattic/jetpack-waf/tree/v0.22.1"
             },
             "install-path": "../../jetpack_vendor/automattic/jetpack-waf"
         },
