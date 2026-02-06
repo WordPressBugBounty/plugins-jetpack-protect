@@ -351,7 +351,7 @@ class Defaults {
 		'taxonomies'                        => array( 'Automattic\\Jetpack\\Sync\\Functions', 'get_taxonomies' ),
 		'theme_support'                     => array( 'Automattic\\Jetpack\\Sync\\Functions', 'get_theme_support' ),
 		'timezone'                          => array( 'Automattic\\Jetpack\\Sync\\Functions', 'get_timezone' ),
-		'wp_get_environment_type'           => array( 'Automattic\\Jetpack\\Sync\\Functions', 'get_environment_type' ),
+		'wp_get_environment_type'           => 'wp_get_environment_type',
 		'wp_max_upload_size'                => 'wp_max_upload_size',
 		'wp_version'                        => array( 'Automattic\\Jetpack\\Sync\\Functions', 'wp_version' ),
 		'active_modules'                    => array( 'Automattic\\Jetpack\\Sync\\Functions', 'get_active_modules' ),
@@ -468,6 +468,7 @@ class Defaults {
 		'iw_omnibus_price_log', // Omnibus Plugin - Log price changes.
 		'od_url_metrics', // Optimization Detective - Log URL metrics.
 		'ap_outbox', // ActivityPub Outbox; only used for broadcasting ActivityPub activity to followers.
+		'shop_order_placehold', // WooCommerce placeholder - Used to maintain compatibility and references when switching between WP Posts-based order storage and the newer HPOS tables.
 	);
 
 	/**
@@ -1330,7 +1331,7 @@ class Defaults {
 			'max_chunks' => 10,
 		),
 		'posts'                   => array(
-			'chunk_size' => 100,
+			'chunk_size' => 500,
 			'max_chunks' => 1,
 		),
 		'term_relationships'      => array(
@@ -1372,7 +1373,7 @@ class Defaults {
 	/**
 	 * Default for enabling wpcom rest api for Sync.
 	 *
-	 * @var int Bool-ish. Default 0.
+	 * @var int Bool-ish. Default 1.
 	 */
-	public static $default_wpcom_rest_api_enabled = 0;
+	public static $default_wpcom_rest_api_enabled = 1;
 }
